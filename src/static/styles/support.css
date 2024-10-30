@@ -1,0 +1,69 @@
+.cs-ai-support-page-content-wrapper {
+  background: #FFFFFF;
+  border: 0.5px solid #C4C4C4;
+  padding: 2rem;
+}
+
+.cs-ai-support-title {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.cs-ai-support-page-links {
+  padding-left: 2rem;
+}
+
+.cs-ai-support-page-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cs-ai-support-page-link img {
+  max-width: 18px;
+  margin-right: 0.25rem;
+}
+
+.cs-ai-support-page-link a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: black;
+}
+
+.cs-ai-support-video-cta {
+  background: #523AE7;
+  color: white;
+  padding: 1rem 1.5rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.cs-ai-support-page-content-flex {
+  display: flex;
+}
+
+.cs-ai-support-page-cta-support {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #C4C4C4;
+}
+
+.cs-ai-support-video-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.cs-ai-support-video-wrapper img {
+  max-width: 600px;
+}

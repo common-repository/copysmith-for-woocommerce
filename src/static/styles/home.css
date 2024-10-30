@@ -1,0 +1,390 @@
+.cs-ai-product-section {
+  position: relative;
+}
+
+.cs-ai-product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.cs-ai-product-header h1 {
+  display: inline;
+}
+
+.cs-ai-product-table {
+  background: #FFFFFF;
+  border: 0.5px solid #C4C4C4;
+  width: 100%;
+  table-layout: auto;
+}
+
+.cs-ai-product-table thead th {
+  border-bottom: 0.5px solid #C4C4C4;
+}
+
+.cs-ai-product-table,
+.cs-ai-product-table td,
+.cs-ai-product-table th {
+  background: #FFFFFF;
+  border-collapse: collapse;
+}
+
+.cs-ai-product-table th {
+  padding: 1rem 2rem;
+}
+
+.cs-ai-product-filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.cs-ai-product-filters select {
+  margin-right: 0.5rem;
+}
+
+.cs-ai-no-products td {
+  padding: 8rem 0;
+}
+
+.cs-ai-no-products h3,
+.cs-ai-no-products p {
+  text-align: center;
+}
+
+.cs-ai-no-products h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.cs-ai-no-products p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.cs-ai-no-products .cs-ai-no-products-refresh {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+  margin-top: 0;
+}
+
+.cs-ai-product-generator,
+.cs-ai-product-output {
+  border-bottom: 0.5px solid #C4C4C4;
+  align-items: flex-start;
+  vertical-align: top;
+  max-width: 50%;
+  width: 50%;
+}
+
+.cs-ai-product-list td {
+  padding: 1rem 2rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  border-bottom: 0.5px solid #C4C4C4;
+
+}
+
+.cs-ai-product-list:hover td {
+  background-color: #dfdede;
+}
+
+.cs-ai-product-list.expanded td {
+  border-bottom: 2px solid rgba(82,58,231, 0.8);
+  border-top: 2px solid rgba(82,58,231, 0.8);
+}
+
+.cs-ai-product-list.expanded td:first-child {
+  border-left: 2px solid rgba(82,58,231, 0.8);
+}
+
+.cs-ai-product-list.expanded td:last-child {
+  border-right: 2px solid rgba(82,58,231, 0.8);
+}
+
+
+.cs-ai-product-list .cs-ai-product-list-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.cs-ai-product-generator-form {
+  padding: 2rem;
+}
+
+.cs-ai-product-output {
+  background: #F8F8F8 !important;
+  border-left: 0.5px solid #C4C4C4;
+}
+
+.cs-ai-no-generations {
+  background: #F8F8F8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.cs-ai-no-generations .cs-ai-no-gen-headline {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #565656;
+}
+
+.cs-ai-no-generations .cs-ai-no-gen-tips {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #565656;
+}
+
+.cs-ai-no-generations .cs-ai-no-gen-tip {
+  display: flex;
+}
+
+.cs-ai-no-generations .cs-ai-no-gen-tip p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565656;
+  text-align: left;
+  margin: 0 0 1rem 1rem;
+}
+
+.cs-ai-no-gen-plane svg {
+  font-size: 6rem;
+}
+
+.cs-ai-out-wrapper {
+  padding: 2rem;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.cs-ai-output-card {
+  background-color: white;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+}
+
+.cs-ai-output-card p,
+.cs-ai-output-card textarea {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: black;
+  width: 100%;
+}
+
+.cs-ai-output-card textarea {
+  margin-bottom: 0.5rem;
+}
+
+.cs-ai-output-badges {
+  display: flex;
+  align-items: center;
+}
+
+.cs-ai-badge-new {
+  background: #F1436D;
+  border-radius: 2px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+.cs-ai-badge-char {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
+  background: #F2F2F2;
+  border-radius: 3px;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  
+}
+
+.cs-ai-card-actions {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #C4C4C4;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.cs-ai-card-action-list {
+  display: inline-flex;
+}
+
+.cs-ai-card-action-list div {
+  margin-right: 1rem;
+}
+
+.cs-ai-card-action-list svg {
+  cursor: pointer;
+  fill: #828282;
+  font-size: 1.75rem;
+}
+
+.cs-ai-card-action-list svg:hover {
+  fill: black;
+}
+
+.cs-ai-modal-classes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cs-ai-modal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cs-ai-confrimation-modal {
+  position: relative;
+  background-color: white;
+  display: flex;
+  width: 600px;
+  max-width: 95%;
+  padding: 2rem;
+}
+
+.cs-ai-modal-content p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000429;
+}
+
+.cs-ai-modal-image {
+  font-size: 4rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.cs-ai-modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-ai-modal-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.cs-ai-modal-title-purple {
+  color: #523AE7;
+}
+
+.cs-ai-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.cs-ia-sub-modal {
+  position: absolute;
+  top: -2rem;
+  bottom: 0;
+  right: -2rem;
+  left: -2rem;
+  background-color: rgba(250, 250, 250, 0.8);
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4rem;
+  justify-content: center;
+}
+
+.cs-ai-sub-content {
+  background-color: white;
+  border: 0.5px solid #C4C4C4;
+  padding: 2rem;
+}
+
+.cs-ai-sub-content h1 {
+  color: #333333;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.cs-ai-sub-content p {
+  color: #333333;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.cs-ai-sub-buttons .cs-ai-button {
+  padding: 0.5rem 0;
+  width: 100%;
+  display: block;
+}
+
+.cs-ai-like-file svg {
+  cursor: pointer;
+}
+
+.cs-ai-like-file svg:hover {
+  fill: #523AE7;
+}
+
+.cs-ai-like-file.liked svg {
+  fill: #523AE7;
+}

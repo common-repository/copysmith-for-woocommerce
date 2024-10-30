@@ -1,0 +1,17 @@
+{
+    "name": "weseldridge/copysmithai",
+    "autoload": {
+        "psr-4": {
+            "Weseldridge\\Copysmithai\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wes Eldridge",
+            "email": "weseldridge@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4"
+    }
+}

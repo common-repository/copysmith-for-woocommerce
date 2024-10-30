@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.cs-ai-main-layout {
+  margin-right: 20px;
+  border-right: 1px solid #C4C4C4;
+  border-left: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.cs-ai-content-area {
+  padding: 2rem;
+}
+
+.cs-ai-plugin-nav {
+  display: flex;
+  border-bottom: 1px solid #C4C4C4;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cs-ai-nav-brand {
+  display: flex;
+  align-items: center;
+  margin: 0 1.25rem;
+}
+
+.cs-ai-nav-brand img {
+  max-width: 40px;
+}
+
+.cs-ai-nav-links {
+  display: flex;
+}
+
+.cs-ai-link {
+  padding: 1.5rem 2rem;
+}
+
+.cs-ai-link a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.cs-ai-link.active {
+  border-bottom: 2px solid #523AE7;
+  background: #EEECFD;
+}
+
+.cs-ai-link:hover {
+  border-bottom: 2px solid #523AE7;
+}
+
+.cs-ai-link.active a {
+  color: #523AE7;
+  font-weight: 600;
+}
+
+.cs-ai-right-nav {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.cs-ai-credits {
+  margin-right: 1rem;
+}
+
+.cs-ai-credits > div:first-child {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.cs-ai-credits > div:last-child {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.cs-ai-nav-upgrade {
+  margin: 0.3rem 2rem 0.3rem 0;
+}
+
+.cs-ai-nav-upgrade a {
+  border: 1px solid #F1436D;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  color: #F1436D;
+  text-decoration: none;
+ }
+
+.cs-ai-nav-upgrade a:hover {
+  background: #fde7ed;
+}
+
+.cs-ai-page-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.cs-ai-table-number {
+  text-align: right;
+}
+
+.cs-ai-table-text {
+  text-align: left;
+}
+
+.cs-ai-form-group {
+  margin-bottom: 1rem;
+}
+
+.cs-ai-form-group label,
+.cs-ai-form-group input,
+.cs-ai-form-group select {
+  display: block;
+  width: 100%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.cs-ai-form-group input,
+.cs-ai-form-group select {
+  padding: 0.5rem;
+  margin-right: 0;
+  max-width: none;
+}
+
+.cs-ai-form-group label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #565656;
+  margin-bottom: 0.5rem;
+}
+
+.cs-ai-button {
+  background: #523AE7;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem 2rem;
+  border: 1px solid #523AE7;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cs-ai-button.cs-ai-button-small {
+  padding: 0.5rem 1rem;
+}
+
+.ReactTags__selected {
+  margin-top: 0.4rem;
+}
+
+.tag-wrapper.ReactTags__tag {
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #523AE7;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-wrapper .ReactTags__remove {
+  border-radius: 9999px;
+  background-color: #523AE7;
+  color: white;
+  border-width: 0;
+  margin-left: 0.25rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.cs-ai-submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cs-ai-submit span {
+  margin-right: 1rem;
+}
+
+.cs-ai-banner {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 160px;
+  top: auto;
+  background-color: #523AE7;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.cs-ai-banner p:first-child {
+  font-weight: 500;
+}
+
+.cs-ai-banner a { 
+  color: white;
+  margin-left: 0.25rem;
+}
+
+@media only screen and (max-width: 960px) {
+  .cs-ai-banner {
+    white-space: normal;
+    left: 36px;
+  }
+}
+
+@media only screen and (max-width: 782px) {
+  .cs-ai-banner {
+    flex-direction: column;
+    left: 0;
+  }
+
+  .cs-ai-banner p:first-child {
+    margin-bottom: 0.25rem;
+  }
+
+  .cs-ai-banner p:last-child {
+    margin-top: 0.25rem;
+  }
+}
+
+.cs-ai-loading {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cs-ai-loading p {
+  font-size: 1.5rem;
+}
+
+.cs-ai-form-error {
+  color: red;
+  margin-left: 0.5rem;
+}
+
+.cs-ai-cursor-no-allow {
+  cursor: not-allowed;
+}

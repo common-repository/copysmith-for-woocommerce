@@ -1,0 +1,53 @@
+.cs-ai-account-info-detail,
+.cs-ai-account-buttons {
+  display: flex;
+}
+
+.cs-ai-account-info-detail {
+  margin-bottom: 1rem;
+}
+
+.cs-ai-account-info-detail div {
+  margin-right: 1rem;
+}
+
+.cs-ai-account-info-detail div:first-child {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.cs-ai-account-info-detail div:last-child {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.cs-ai-account-info {
+  margin-bottom: 3rem;
+}
+
+.cs-ai-account-cta,
+.cs-ai-account-link-button {
+  padding: 0.5rem 1.5rem;
+}
+
+.cs-ai-account-cta {
+  background: #523AE7;
+  border-radius: 5px;
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.cs-ai-account-link-button {
+  border: 1px solid #523AE7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #523AE7;
+  background: white;
+}
